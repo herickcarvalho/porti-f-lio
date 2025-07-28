@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Ultra&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&family=Ultra&display=swap"
       rel="stylesheet"
     />
 
@@ -16,25 +16,95 @@
   <body>
     <nav class="navegacao">
       <ul>
-
-        <li> <a href="#inicio">Início</a> </li>
-        <li> <a href="#sobre">Sobre</a> </li>
-        <li> <a href="#projetos">Projetos</a> </li>
-        <li> <a href="#contato">Contato</a> </li>
-       
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contatos">Contato</a></li>
       </ul>
     </nav>
 
     <main id="inicio" class="cabecalho">
       <div>
-        <img src="./img/foto-perfil.jpg" alt="foto Herick">
+        <img
+          src="./img/foto-perfil.jpg"
+          alt="foto Herick"
+          class="foto-perfil"
+        />
 
         <h1>Herick Carvalho</h1>
         <p>Desenvolvedor Front end</p>
-
       </div>
-
     </main>
- 
+
+    <section id="sobre" class="sobre">
+      <h2 class="sobre-titulo">Sobre Mim</h2>
+
+      <div class="sobre-caixa">
+        <p class="sobre-paragrafo">
+          Olá, sou um desenvolvedor Front-end especializado em criar
+          experiências digitais rápidas, escaláveis e com foco em performance.
+          Tenho sólida experiência em grandes projetos, utilizando tecnologias
+          modernas como React.js, Next.js, TypeScript, Redux, Styled Components,
+          Material UI e Tailwind CSS. Sou apaixonado pelo desenvolvimento de
+          componentes reutilizáveis, Design Systems, animações fluidas e por
+          evoluir continuamente a performance e a acessibilidade das aplicações.
+        </p>
+      </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+      <h2>Meus projetos</h2>
+      <div class="projetos-caixa">
+        <div class="projetos-card">
+          <img
+            src="./img/loja-café.jpg"
+            alt="loja-café"
+            class="projetos-imagem"
+          />
+          <h3 class="info-projetos">Cafeteria Cafena</h3>
+          <p class="paragrafo-projetos">
+            Loja virtual com animações suaves e design responsivo
+          </p>
+        </div>
+
+        <div class="projetos-card">
+          <img
+            src="./img/loja-carros.jpg"
+            alt="loja-carros"
+            class="projetos-imagem"
+          />
+          <h3 class="info-projetos">Loja de carros</h3>
+          <p class="paragrafo-projetos">
+            Loja virtual mais usada como vitrine, projeto feito com html,css e
+            java script
+          </p>
+        </div>
+
+        <div class="projetos-card">
+          <img src="./img/refri.jpg" alt="refri" class="projetos-imagem" />
+          <h3 class="info-projetos">Refri</h3>
+          <p class="paragrafo-projetos">
+            Criado com intuito de treinar minhas habilidades com html,css e java
+            script além de versionamento git.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+      <h2 class="contatos-titulo">Contatos</h2>
+      <form class="formulario-contato" id="formulario">
+        <div class="grupo-form">
+          <input placeholder="Nome" class="campo-form" />
+        </div>
+
+        <div class="grupo-form">
+          <textarea
+            placeholder="digite sua mensagem"
+            class="text-form"
+          ></textarea>
+        </div>
+      </form>
+    </section>
   </body>
 </html>
