@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&family=Ultra&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
 
@@ -47,7 +47,11 @@
     </section>
 
     <section id="projetos" class="projetos">
-      <h2>Meus projetos</h2>
+
+     
+        <h2 class="meus">Meus projetos</h2>
+     
+
       <div class="projetos-caixa">
         <div class="projetos-card">
           <img
@@ -55,10 +59,12 @@
             alt="loja-café"
             class="projetos-imagem"
           />
-          <h3 class="info-projetos">Cafeteria Cafena</h3>
-          <p class="paragrafo-projetos">
-            Loja virtual com animações suaves e design responsivo
-          </p>
+          <div class="caixa-textos-projetos">
+            <h3 class="info-projetos">Cafeteria Cafena</h3>
+            <p class="paragrafo-projetos">
+              Loja virtual com animações suaves e design responsivo
+            </p>
+          </div>
         </div>
 
         <div class="projetos-card">
@@ -67,26 +73,30 @@
             alt="loja-carros"
             class="projetos-imagem"
           />
-          <h3 class="info-projetos">Loja de carros</h3>
-          <p class="paragrafo-projetos">
-            Loja virtual mais usada como vitrine, projeto feito com html,css e
-            java script
-          </p>
+          <div class="caixa-textos-projetos">
+            <h3 class="info-projetos">Loja de carros</h3>
+            <p class="paragrafo-projetos">
+              Loja virtual mais usada como vitrine, projeto feito com html,css e
+              java script
+            </p>
+          </div>
         </div>
 
         <div class="projetos-card">
           <img src="./img/refri.jpg" alt="refri" class="projetos-imagem" />
-          <h3 class="info-projetos">Refri</h3>
-          <p class="paragrafo-projetos">
-            Criado com intuito de treinar minhas habilidades com html,css e java
-            script além de versionamento git.
-          </p>
+          <div class="caixa-textos-projetos">
+            <h3 class="info-projetos">Refri</h3>
+            <p class="paragrafo-projetos">
+              Criado com intuito de treinar minhas habilidades com html,css e
+              java script além de versionamento git.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="contatos" class="contatos">
-      <h2 class="contatos-titulo">Contatos</h2>
+      <h2 class="contatos-titulo">Entre em contato</h2>
       <form class="formulario-contato" id="formulario">
         <div class="grupo-form">
           <input placeholder="Nome" class="campo-form" />
@@ -95,9 +105,11 @@
         <div class="grupo-form">
           <textarea
             placeholder="digite sua mensagem"
-            class="text-form"
+            class="campo-form"
           ></textarea>
         </div>
+         <button type="submit" class="botao-form">Enviar Whatsapp</button>
+
       </form>
     </section>
   </body>
